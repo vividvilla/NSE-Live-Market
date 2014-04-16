@@ -1,0 +1,93 @@
+@import url(http://fonts.googleapis.com/css?family=Crimson+Text);
+body {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 17px;
+	background-color: #ddd;
+	color: #000;
+	margin: 0;
+	padding: 0;
+	line-height: 1.4em;
+}
+body h1, body h2, body h3, body h4, body h5, body h6 {
+	font-family: Crimson Text, Georgia, serif;
+	font-weight: normal;
+	padding: 0;
+	color: fff;
+}
+a {
+	color: #fff;
+	text-decoration: none;
+}
+#wrapper {
+	width: 700px;
+	margin: 0 auto;
+	background: #fff;
+}
+.header {
+	text-align: center;
+	background: #2ecc71;
+	padding: 20px 10px;
+	color: #fff;
+}
+#stocks-table {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 12px;
+	width: 100%;
+	text-align: left;
+	border-collapse: collapse;
+}
+th {
+	font-size: 13px;
+	font-weight: normal;
+	padding: 8px;
+	background: #2ecc71;
+	border-top: 4px solid #2ecc71;
+	border-bottom: 1px solid #fff;
+	color: #fff;
+}
+td {
+	padding: 8px;
+	background: #fafafa;
+	border-bottom: 1px solid #fff;
+	/* color: #669;
+	*/
+	border-top: 1px solid transparent;
+}
+tr:hover td {
+	background: #fff;
+	color: #333;
+}
+.header-info {
+	text-align: center;
+	margin-bottom: 10px;
+}
+.time {
+	font-size: 12px;
+}
+.site-nav {
+	background: #27ae60;
+}
+.site-nav ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+.site-nav ul li {
+	position: relative;
+	display: inline-block;
+	margin-right: 10px;
+	margin: 10px 0;
+	padding: 0 15px;
+	max-height: 20px;
+	font-size: 15px;
+}
+.site-nav ul li:first-child {
+	padding-left: 0;
+}
+.site-nav ul li:last-child {
+	border-right: none;
+}
+#content {
+	padding: 0 10px;
+}
